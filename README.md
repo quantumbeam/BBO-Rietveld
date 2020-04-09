@@ -12,21 +12,21 @@
 ## Usage
 __Note: We suppose you are using macOS or Ubuntu and can run docker command without `sudo` permissions.__
 
-First, clone this repository to your computer.
+1. First, clone this repository to your computer.
 
-Build bbo-rietveld docker image on terminal. 
+2. Build bbo-rietveld docker image on terminal. 
 
 ```sh
 # Please make sure run following command in this directory
 docker build ./docker -t bbo-rietveld
 ```
 
-Run bbo-rietveld container.
+3. Run bbo-rietveld container.
 ```sh
 ./run.sh
 ```
 
-Open http://127.0.0.1:8888/?token={TOKEN} in your browser, and you can see a window of JupyterLab. The token will be displayed on your terminal like this:
+4. Open http://127.0.0.1:8888/?token={TOKEN} in your browser, and you can see a window of JupyterLab. The token will be displayed on your terminal like this:
 ```
 ...
 
@@ -38,7 +38,7 @@ Open http://127.0.0.1:8888/?token={TOKEN} in your browser, and you can see a win
 ```
 In this case, you should open `http://127.0.0.1:8888/?token=126c79b021d40344592d5b066225b32474487cb69f711ffe`.
 
-Then, open `1_Y2O3.ipynb` or other notebooks on JupyterLab and run notebook cells.
+5. Then, open `1_Y2O3.ipynb` or other notebooks on JupyterLab and run notebook cells.
 
 
 ## For expert users
@@ -67,3 +67,8 @@ resnant@cosmos:~$ docker image list
 REPOSITORY              TAG                             IMAGE ID            CREATED             SIZE
 bbo-rietveld            latest                          9363ff5d1eed        39 hours ago        3.46GB
 ```
+
+## Licence
+This software is distributed under Apache 2.0 licence for research and education purposes. If you want to use this code for a commercial purpose, please contact the corresponding author.
+
+The diffraction and crystal structure dataset in `data/` directory is distributed under its original licences. See [README of the dataset](data/README.md) for details.

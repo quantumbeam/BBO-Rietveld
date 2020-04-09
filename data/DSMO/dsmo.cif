@@ -1,0 +1,44 @@
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+data_VESTA_phase_1
+
+
+_chemical_name_common                  'A single-crystal infrared spe'
+_cell_length_a                         5.40201
+_cell_length_b                         5.41494
+_cell_length_c                         7.62832
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      90
+_space_group_name_H-M_alt              'P b n m'
+_space_group_IT_number                 62
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   'x+1/2, -y+1/2, -z'
+   '-x+1/2, y+1/2, z'
+   '-x, -y, z+1/2'
+   'x, y, -z+1/2'
+   '-x+1/2, y+1/2, -z+1/2'
+   'x+1/2, -y+1/2, z+1/2'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Mn1        1.0     0.000000      0.500000      0.000000     Uiso  0.001477 Mn
+   Dy1        0.5    -0.0027(7)     0.02575(16)   0.250000     Uiso  0.009167 Dy
+   Sr1        0.5    -0.0027(7)     0.02575(16)   0.250000     Uiso  0.004463 Sr
+   O1         1.0     0.543(6)     -0.013(2)      0.250000     Uiso  0.105717 O
+   O2         1.0     0.2677(18)    0.2774(17)    0.0351(9)    Uiso  0.005463 O

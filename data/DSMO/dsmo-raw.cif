@@ -1,0 +1,501 @@
+##############################################################################
+###      FullProf-generated CIF output file  (version: May 2011)           ###
+###      Template of CIF submission form for structure report              ###
+##############################################################################
+ 
+# This file has been generated using FullProf.2k taking one example of 
+# structure report provided by Acta Cryst. It is given as a 'template' with 
+# filled structural items. Many other items are left unfilled and it is the  
+# responsibility of the user to properly fill or suppress them. In principle 
+# all question marks '?' should be replaced by the appropriate text or 
+# numerical value depending on the kind of CIF item. 
+# See the document: cif_core.dic (URL: http://www.iucr.org) for details. 
+ 
+# Please notify any error or suggestion to: 
+#           Juan Rodriguez-Carvajal (jrc@ill.eu)
+# Improvements will be progressively added as needed.
+ 
+#=============================================================================
+ data_global
+#=============================================================================
+ 
+# PROCESSING SUMMARY (IUCr Office Use Only)
+ 
+_journal_data_validation_number      ?
+ 
+_journal_date_recd_electronic        ?
+_journal_date_to_coeditor            ?
+_journal_date_from_coeditor          ?
+_journal_date_accepted               ?
+_journal_date_printers_first         ?
+_journal_date_printers_final         ?
+_journal_date_proofs_out             ?
+_journal_date_proofs_in              ?
+_journal_coeditor_name               ?
+_journal_coeditor_code               ?
+_journal_coeditor_notes
+; ?
+;
+_journal_techeditor_code             ?
+_journal_techeditor_notes
+; ?
+;
+_journal_coden_ASTM                  ?
+_journal_name_full                   ?
+_journal_year                        ?
+_journal_volume                      ?
+_journal_issue                       ?
+_journal_page_first                  ?
+_journal_page_last                   ?
+_journal_paper_category              ?
+_journal_suppl_publ_number           ?
+_journal_suppl_publ_pages            ?
+ 
+#=============================================================================
+ 
+# 1. SUBMISSION DETAILS
+ 
+_publ_contact_author_name            ?  # Name of author for correspondence
+_publ_contact_author_address            # Address of author for correspondence
+; ?
+;
+_publ_contact_author_email           ?
+_publ_contact_author_fax             ?
+_publ_contact_author_phone           ?
+ 
+_publ_contact_letter
+; ?
+;
+ 
+_publ_requested_journal              ?
+_publ_requested_coeditor_name        ?
+_publ_requested_category             ?   # Acta C: one of CI/CM/CO/FI/FM/FO
+ 
+ 
+# Definition of non standard CIF items (Reliability indices used in FULLPROF) 
+ 
+loop_ 
+_publ_manuscript_incl_extra_item
+_publ_manuscript_incl_extra_info
+_publ_manuscript_incl_extra_defn
+#      Name                               Explanation                 Standard?
+#     ------                              -----------                 ---------
+ '_pd_proc_ls_prof_cR_factor'    'Prof. R-factor CORRECTED for background'   no
+ '_pd_proc_ls_prof_cwR_factor'   'wProf.R-factor CORRECTED for background'   no
+ '_pd_proc_ls_prof_cwR_expected' 'wProf.Expected CORRECTED for background'   no
+ '_pd_proc_ls_prof_chi2'         'Chi-square for all considered points'      no
+ '_pd_proc_ls_prof_echi2'        'Chi-2 for points with Bragg contribution'  no
+#=============================================================================
+ 
+# 3. TITLE AND AUTHOR LIST
+ 
+_publ_section_title
+; '  A single-crystal infrared spectroscopic and X-ray diffraction study of'
+;
+_publ_section_title_footnote
+;
+;
+ 
+# The loop structure below should contain the names and addresses of all 
+# authors, in the required order of publication. Repeat as necessary.
+ 
+loop_
+    _publ_author_name
+    _publ_author_footnote
+    _publ_author_address
+?                                   #<--'Last name, first name' 
+; ?
+;
+; ?
+;
+ 
+#=============================================================================
+ 
+# 4. TEXT
+ 
+_publ_section_synopsis
+;  ?
+;
+_publ_section_abstract
+; ?
+;          
+_publ_section_comment
+; ?
+;
+_publ_section_exptl_prep      # Details of the preparation of the sample(s)
+                              # should be given here. 
+; ?
+;
+_publ_section_exptl_refinement
+; ?
+;
+_publ_section_references
+; ?
+;
+_publ_section_figure_captions
+; ?
+;
+_publ_section_acknowledgements
+; ?
+;
+ 
+#=============================================================================
+ 
+#=============================================================================
+# If more than one structure is reported, the remaining sections should be 
+# completed per structure. For each data set, replace the '?' in the
+# data_? line below by a unique identifier.
+ 
+data_ A single-crystal infrared spe
+ 
+#=============================================================================
+ 
+# 5. CHEMICAL DATA
+ 
+_chemical_name_systematic
+; ?
+;
+_chemical_name_common             ?
+_chemical_formula_moiety          ?
+_chemical_formula_structural      ?
+_chemical_formula_analytical      ?
+_chemical_formula_iupac           ?
+_chemical_formula_sum             ?
+_chemical_formula_weight          ?
+_chemical_melting_point           ?
+_chemical_compound_source         ?       # for minerals and 
+                                          # natural products
+ 
+loop_
+    _atom_type_symbol               
+    _atom_type_scat_Cromer_Mann_a1 
+    _atom_type_scat_Cromer_Mann_b1 
+    _atom_type_scat_Cromer_Mann_a2 
+    _atom_type_scat_Cromer_Mann_b2 
+    _atom_type_scat_Cromer_Mann_a3 
+    _atom_type_scat_Cromer_Mann_b3 
+    _atom_type_scat_Cromer_Mann_a4 
+    _atom_type_scat_Cromer_Mann_b4 
+    _atom_type_scat_Cromer_Mann_c 
+    _atom_type_scat_dispersion_real 
+    _atom_type_scat_dispersion_imag 
+    _atom_type_scat_source          
+mn    11.28190   5.34090   7.35730   0.34320   3.01930  17.86740
+       2.24410  83.75430   1.08960  -0.56800   2.80800
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+dy    26.50700   2.18020  17.63830   0.20217  14.55960  12.18990
+       2.96577 111.87400   4.29728 -10.42300   9.74800
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+sr    17.56630   1.55640   9.81840  14.09880   5.42200   0.16640
+       2.66940 132.37601   2.50640  -0.46500   1.82000
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+o      3.04850  13.27710   2.28680   5.70110   1.54630   0.32390
+       0.86700  32.90890   0.25080   0.04700   0.03200
+ International_Tables_for_Crystallography_Vol.C(1991)_Tables_6.1.1.4_and_6.1.1.5
+ 
+#=============================================================================
+ 
+# 6. POWDER SPECIMEN AND CRYSTAL DATA
+ 
+_symmetry_cell_setting                Orthorhombic
+_symmetry_space_group_name_H-M       'P b n m'
+_symmetry_space_group_name_Hall      '-P 2c 2ab'
+ 
+loop_
+    _symmetry_equiv_pos_as_xyz   #<--must include 'x,y,z'
+'x,y,z'
+'x+1/2,-y+1/2,-z'
+'-x+1/2,y+1/2,-z+1/2'
+'-x,-y,z+1/2'
+'-x,-y,-z'
+'-x+1/2,y+1/2,z'
+'x+1/2,-y+1/2,z+1/2'
+'x,y,-z+1/2'
+ 
+_cell_length_a                       5.40201
+_cell_length_b                       5.41494
+_cell_length_c                       7.62832
+_cell_angle_alpha                    90.00000
+_cell_angle_beta                     90.00000
+_cell_angle_gamma                    90.00000
+_cell_volume                         223.14005
+_cell_formula_units_Z                ?
+_cell_measurement_temperature        ?
+_cell_special_details
+; ?
+;
+# The next three fields give the specimen dimensions in mm.  The equatorial
+# plane contains the incident and diffracted beam.
+ 
+_pd_spec_size_axial               ?       # perpendicular to 
+                                          # equatorial plane
+_pd_spec_size_equat               ?       # parallel to 
+                                          # scattering vector
+                                          # in transmission
+_pd_spec_size_thick               ?       # parallel to 
+                                          # scattering vector
+                                          # in reflection
+ 
+# The next five fields are character fields that describe the specimen.
+ 
+_pd_spec_mounting                         # This field should be
+                                          # used to give details of the 
+                                          # container.
+; ?
+;
+_pd_spec_mount_mode               ?       # options are 'reflection'
+                                          # or 'transmission'
+_pd_spec_shape                    ?       # options are 'cylinder' 
+                                          # 'flat_sheet' or 'irregular'
+_pd_char_particle_morphology      ?
+_pd_char_colour                   ?       # use ICDD colour descriptions
+ 
+# The following three fields describe the preparation of the specimen.
+# The cooling rate is in K/min.  The pressure at which the sample was 
+# prepared is in kPa.  The temperature of preparation is in K.        
+ 
+_pd_prep_cool_rate                ?
+_pd_prep_pressure                 ?
+_pd_prep_temperature              ?
+ 
+# The next four fields are normally only needed for transmission experiments.
+ 
+_exptl_absorpt_coefficient_mu        ?
+_exptl_absorpt_correction_type       ?
+_exptl_absorpt_process_details       ?
+_exptl_absorpt_correction_T_min      ?
+_exptl_absorpt_correction_T_max      ?
+ 
+#=============================================================================
+ 
+# 7. EXPERIMENTAL DATA
+ 
+_exptl_special_details
+; ?
+;
+ 
+# The following item is used to identify the equipment used to record 
+# the powder pattern when the diffractogram was measured at a laboratory 
+# other than the authors' home institution, e.g. when neutron or synchrotron
+# radiation is used.
+ 
+_pd_instr_location
+; ?
+;
+_pd_calibration_special_details           # description of the method used
+                                          # to calibrate the instrument
+; ?
+;
+ 
+_diffrn_ambient_temperature          ?
+_diffrn_source              ? # Put here: 'rotating-anode X-ray tube' or similar 
+_diffrn_radiation_type     'X-ray' 
+_diffrn_source_target       ? # Put here the chemical symbol of the anode
+ 
+_diffrn_radiation_monochromator      ?
+_diffrn_measurement_device_type      ?
+_diffrn_measurement_method           ?
+_diffrn_detector_area_resol_mean     ? # Not in version 2.0.1
+_diffrn_detector                     ?
+_diffrn_detector_type                ? # make or model of detector
+_pd_meas_scan_method      ?   # options are 'step', 'cont',
+                              # 'tof', 'fixed' or
+                              # 'disp' (= dispersive)
+_pd_meas_special_details
+;  ?
+;
+ 
+#  The following four items give details of the measured (not processed)
+#  powder pattern.  Angles are in degrees.
+ 
+_pd_meas_number_of_points         5495
+_pd_meas_2theta_range_min         10.12000
+_pd_meas_2theta_range_max         120.00000
+_pd_meas_2theta_range_inc         0.020006
+ 
+#=============================================================================
+ 
+# 8. REFINEMENT DATA
+ 
+_refine_special_details
+; ?
+;
+ 
+# Use the next field to give any special details about the fitting of the
+# powder pattern.
+ 
+_pd_proc_ls_special_details
+; ?
+;
+ 
+# The next three items are given as text.
+ 
+_pd_proc_ls_profile_function      ?
+_pd_proc_ls_background_function   ?
+_pd_proc_ls_pref_orient_corr
+; ?
+;
+ 
+#  The following profile R-factors are NOT CORRECTED for background
+#  The sum is extended to all non-excluded points.
+#  These are the current CIF standard
+ 
+_pd_proc_ls_prof_R_factor                6.8453
+_pd_proc_ls_prof_wR_factor               9.7298
+_pd_proc_ls_prof_wR_expected             5.2718
+ 
+#  The following profile R-factors are CORRECTED for background
+#  The sum is extended to all non-excluded points.
+#  These items are not in the current CIF standard, but are defined above
+ 
+_pd_proc_ls_prof_cR_factor               10.1463
+_pd_proc_ls_prof_cwR_factor              12.5354
+_pd_proc_ls_prof_cwR_expected             6.7919
+ 
+#  The following items are not in the CIF standard, but are defined above
+ 
+_pd_proc_ls_prof_chi2                 3.4064
+_pd_proc_ls_prof_echi2                3.6503
+ 
+#  Items related to LS refinement
+ 
+_refine_ls_R_I_factor                 3.7639
+_refine_ls_number_reflns                   383
+_refine_ls_number_parameters                19
+_refine_ls_number_restraints                 0
+ 
+# The following four items apply to angular dispersive measurements.
+# 2theta minimum, maximum and increment (in degrees) are for the 
+# intensities used in the refinement.
+ 
+_pd_proc_2theta_range_min               10.1565
+_pd_proc_2theta_range_max              120.0365
+_pd_proc_2theta_range_inc              0.020006
+_pd_proc_wavelength                    1.540560
+ 
+_pd_block_diffractogram_id        ?  # The id used for the block containing
+                                     # the powder pattern profile (section 11)
+ 
+# Give appropriate details in the next two text fields.
+ 
+_pd_proc_info_excluded_regions    ?
+_pd_proc_info_data_reduction      ?
+ 
+# The following items are used to identify the programs used.
+ 
+_computing_data_collection           ?
+_computing_structure_solution        ?
+_computing_structure_refinement      FULLPROF
+_computing_molecular_graphics        ?
+_computing_publication_material      ?
+ 
+#=============================================================================
+ 
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+ 
+loop_
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_U_iso_or_equiv
+    _atom_site_occupancy
+    _atom_site_adp_type              # Not in version 2.0.1
+    _atom_site_type_symbol
+ Mn1  0.00000  0.50000  0.00000  0.00148  1.00000 Uani Mn  
+ Dy1 -0.0027(6)  0.02575(15)  0.25000  0.00916  0.49043 Uani Dy  
+ Sr1 -0.0027(6)  0.02575(15)  0.25000  0.00446  0.49043 Uani Sr  
+ O1  0.543(6) -0.0129(19)  0.25000  0.10572  1.00006 Uani O   
+ O2  0.2677(18)  0.2774(17)  0.0351(9)  0.00546  1.06274 Uani O   
+ 
+loop_
+    _atom_site_aniso_label 
+    _atom_site_aniso_U_11  
+    _atom_site_aniso_U_22  
+    _atom_site_aniso_U_33  
+    _atom_site_aniso_U_12  
+    _atom_site_aniso_U_13  
+    _atom_site_aniso_U_23  
+    _atom_site_aniso_type_symbol
+ Mn1 -0.00200 -0.00076  0.00719 -0.00529 -0.00159  0.00115  Mn  
+ Dy1  0.00686  0.01866  0.00198  0.01226  0.00000  0.00000  Dy  
+ Sr1  0.00251 -0.00233  0.01321  0.00353  0.00021  0.00000  Sr  
+ O1  0.21605  0.08627  0.01483 -0.10071  0.00000  0.00000  O   
+ O2 -0.00438  0.02460 -0.00383  0.00317  0.01111 -0.00435  O   
+ 
+# Note: if the displacement parameters were refined anisotropically
+# the U matrices should be given as for single-crystal studies.
+ 
+#=============================================================================
+ 
+# 10. DISTANCES AND ANGLES / MOLECULAR GEOMETRY 
+ 
+_geom_special_details                ?
+ 
+loop_
+    _geom_bond_atom_site_label_1  
+    _geom_bond_atom_site_label_2  
+    _geom_bond_site_symmetry_1    
+    _geom_bond_site_symmetry_2    
+    _geom_bond_distance           
+    _geom_bond_publ_flag          
+    ?   ?   ?   ?   ?   ?
+ 
+loop_
+    _geom_contact_atom_site_label_1 
+    _geom_contact_atom_site_label_2 
+    _geom_contact_distance          
+    _geom_contact_site_symmetry_1   
+    _geom_contact_site_symmetry_2   
+    _geom_contact_publ_flag         
+    ?   ?   ?   ?   ?   ?
+ 
+loop_
+_geom_angle_atom_site_label_1 
+_geom_angle_atom_site_label_2 
+_geom_angle_atom_site_label_3 
+_geom_angle_site_symmetry_1   
+_geom_angle_site_symmetry_2   
+_geom_angle_site_symmetry_3   
+_geom_angle                   
+_geom_angle_publ_flag         
+?   ?   ?   ?   ?   ?   ?   ?
+ 
+loop_
+_geom_torsion_atom_site_label_1 
+_geom_torsion_atom_site_label_2 
+_geom_torsion_atom_site_label_3 
+_geom_torsion_atom_site_label_4 
+_geom_torsion_site_symmetry_1   
+_geom_torsion_site_symmetry_2   
+_geom_torsion_site_symmetry_3   
+_geom_torsion_site_symmetry_4   
+_geom_torsion                   
+_geom_torsion_publ_flag         
+?   ?   ?   ?   ?   ?   ?   ?   ?   ?
+ 
+loop_
+_geom_hbond_atom_site_label_D 
+_geom_hbond_atom_site_label_H 
+_geom_hbond_atom_site_label_A 
+_geom_hbond_site_symmetry_D   
+_geom_hbond_site_symmetry_H   
+_geom_hbond_site_symmetry_A   
+_geom_hbond_distance_DH       
+_geom_hbond_distance_HA       
+_geom_hbond_distance_DA       
+_geom_hbond_angle_DHA         
+_geom_hbond_publ_flag         
+?   ?   ?   ?   ?   ?   ?   ?   ?   ?   ?
+ 
+#=============================================================================
+ 
+#=============================================================================
+# Additional structures (last six sections and associated data_? identifiers) 
+# may be added at this point.                                                 
+#=============================================================================
+ 
+# The following lines are used to test the character set of files sent by     
+# network email or other means. They are not part of the CIF data set.        
+# abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789              
+# !@#$%^&*()_+{}:"~<>?|\-=[];'`,./ 
