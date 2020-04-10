@@ -67,6 +67,15 @@ resnant@cosmos:~$ docker image list
 REPOSITORY              TAG                             IMAGE ID            CREATED             SIZE
 bbo-rietveld            latest                          9363ff5d1eed        39 hours ago        3.46GB
 ```
+- If port `8888` occupied by other services, following error occurs when you start `run.sh`:
+  
+  ```Error starting userland proxy: listen tcp 0.0.0.0:8888: bind: address already in use.```
+  
+  - Please open `run.sh` with a texteditor and modify port binding setting to other port, `18888`, for example:
+```
+docker run --rm -v ${SCRIPT_DIR}/:/bbo_rietveld -p 18888:8888 -it bbo-rietveld
+```
+ - Then, Open `http://127.0.0.1:18888/?token={TOKEN}` in your browser to open Jupyter Notebook.
 
 ## Licence
 This software is distributed under Apache 2.0 licence for research and education purposes. If you want to use this code for a commercial purpose, please contact the corresponding author.
