@@ -64,9 +64,21 @@ pip install git+https://github.com/optuna/optuna.git@v0.14.0
 ```
 In the notebook, you should set `DATA_DIR` and `WORK_DIR` appropriately for your directory.
 
+__Note__  
+In recent versions of GSAS, conda may not be able to resolve the dependencies and GSAS installation may fail.  
+https://subversion.xray.aps.anl.gov/trac/pyGSAS/wiki/InstallConda  
+We have provided a pre-built docker image and recommend using this image.
+To pull the docker image, run the following command:  
+```
+docker pull resnant/bbo-rietveld:v1.0
+```
+For more information on how to use Docker image, please refer to [run.sh](https://github.com/quantumbeam/BBO-Rietveld/blob/8d4533dc1c436f227205e225fc4bb0c3f6402edf/run.sh#L4).
 
 ## Trouble shooting
+If you have any problems or questions, please open an issue on GitHub or contact Yuta Suzuki (resnant [at] outlook.jp) by email. 
+_Whenever possible, please ask your question via an issue rather than an email._ This will help others who encounter similar problems.
 
+### FAQ
 - If you encounter `Unable to find image 'bbo-rietveld:latest' locally` error when you run `run.sh`:
   - Please run `docker image list` on your terminal and make sure that there is `bbo-rietveld` on REPOSITORY and it's tagged as `latest` like following.
 ```sh
