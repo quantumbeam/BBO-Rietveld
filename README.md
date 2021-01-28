@@ -79,13 +79,6 @@ If you have any problems or questions, please open an issue on GitHub or contact
 _Whenever possible, please ask your question via an issue rather than an email._ This will help others who encounter similar problems.
 
 ### FAQ
-- If you encounter `Unable to find image 'bbo-rietveld:latest' locally` error when you run `run.sh`:
-  - Please run `docker image list` on your terminal and make sure that there is `bbo-rietveld` on REPOSITORY and it's tagged as `latest` like following.
-```sh
-resnant@cosmos:~$ docker image list
-REPOSITORY              TAG                             IMAGE ID            CREATED             SIZE
-bbo-rietveld            latest                          9363ff5d1eed        39 hours ago        3.46GB
-```
 - If port `8888` occupied by other services, following error occurs when you start `run.sh`:
   
   ```Error starting userland proxy: listen tcp 0.0.0.0:8888: bind: address already in use.```
@@ -94,7 +87,15 @@ bbo-rietveld            latest                          9363ff5d1eed        39 h
 ```
 docker run --rm -v ${SCRIPT_DIR}/:/bbo_rietveld -p 18888:8888 -it bbo-rietveld
 ```
- - Then, Open `http://127.0.0.1:18888/?token={TOKEN}` in your browser to open Jupyter Notebook.
+  - Then, Open `http://127.0.0.1:18888/?token={TOKEN}` in your browser to open Jupyter Notebook.
+
+- If you encounter `Unable to find image 'resnant/bbo-rietveld:v1.0' locally` error when you run `run.sh`:
+  - Please run `docker image list` on your terminal and make sure that there is `resnant/bbo-rietveld` on REPOSITORY like following.
+```sh
+resnant@cosmos:~$ docker image list
+REPOSITORY              TAG                             IMAGE ID            CREATED             SIZE
+resnant/bbo-rietveld    v1.0                            8f6833e9ff59        5 months ago        3.5GB
+```
 
 ## Licence
 This software is distributed under Apache 2.0 licence for research and education purposes. If you want to use this code for a commercial purpose, please contact the corresponding author.
