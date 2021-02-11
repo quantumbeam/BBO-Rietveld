@@ -1,5 +1,6 @@
 # BBO-Rietveld
 Implementation of BBO-Rietveld, automated crystal structure analysis method based on blackbox optimisation.  
+![The schematic figure of BBO-Rietveld](https://gist.githubusercontent.com/resnant/32aed77b71f71d798a847fab16431315/raw/cadacc758e000e1dc7d7e4d0253512f8b83b4e88/bbo_rietveld_schematic.jpg)
 
 ## Citation
 Ozaki, Y., Suzuki, Y., Hawai, T., Saito, K., Onishi, M., and Ono, K.  
