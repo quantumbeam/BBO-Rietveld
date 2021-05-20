@@ -18,16 +18,25 @@ Automated crystal structure analysis based on blackbox optimisation.
   - We have verified our software works on macOS(10.14) and Ubuntu(18.04). We recommend macOS or Ubuntu to run this software, but it should work on any computer that Docker running.
 
 ## Usage
-__Note: We suppose you are using macOS or Ubuntu and can run docker command without `sudo` permissions.__
+__Note: We suppose you are using macOS or Ubuntu and can run docker command without `sudo` permissions. If you are using Windows, we strongly recommend using WSL2 terminal instead of Command prompt or Windows PowerShell with regard to compatibility.__
 
 1. First, clone this repository to your computer.
 
-2. Build bbo-rietveld docker image on terminal. 
+2. Pull bbo-rietveld docker image on terminal. 
+```sh
+docker pull resnant/bbo-rietveld:v1.0
+```
 
+If needed, you can build bbo-rietveld docker image from `Dockerfile` on your computer.  
 ```sh
 # Please make sure run following command in this directory
 docker build ./docker -t bbo-rietveld
 ```
+In recent versions of GSAS, conda may not be able to resolve the dependencies and GSAS installation may fail.  
+https://subversion.xray.aps.anl.gov/trac/pyGSAS/wiki/InstallConda  
+
+<!-- For more information on how to use Docker image -->
+To use your own docker image, you need to specify your docker image in `run.sh`. Please refer to [run.sh](https://github.com/quantumbeam/BBO-Rietveld/blob/8d4533dc1c436f227205e225fc4bb0c3f6402edf/run.sh#L4).
 
 3. Run bbo-rietveld container.
 ```sh
@@ -65,15 +74,6 @@ pip install git+https://github.com/optuna/optuna.git@v0.14.0
 ```
 In the notebook, you should set `DATA_DIR` and `WORK_DIR` appropriately for your directory.
 
-__Note__  
-In recent versions of GSAS, conda may not be able to resolve the dependencies and GSAS installation may fail.  
-https://subversion.xray.aps.anl.gov/trac/pyGSAS/wiki/InstallConda  
-We have provided a pre-built docker image and recommend using this image.
-To pull the docker image, run the following command:  
-```
-docker pull resnant/bbo-rietveld:v1.0
-```
-For more information on how to use Docker image, please refer to [run.sh](https://github.com/quantumbeam/BBO-Rietveld/blob/8d4533dc1c436f227205e225fc4bb0c3f6402edf/run.sh#L4).
 
 ## Trouble shooting
 If you have any problems or questions, please open an issue on GitHub or contact Yuta Suzuki (resnant [at] outlook.jp) by email. 
