@@ -42,6 +42,11 @@ To use your own docker image, you need to specify your docker image in `run.sh`.
 ```sh
 ./run.sh
 ```
+or 
+```bash
+docker run --rm -it -p 8888:8888 -v $PWD:/workspace bbo-rietveld:v2 bash
+jupyter lab --allow-root --ip 0.0.0.0
+```
 
 4. Open http://127.0.0.1:8888/?token={TOKEN} in your browser, and you can see a window of JupyterLab. The token will be displayed on your terminal like this:
 ```
@@ -61,17 +66,12 @@ In this case, you should open `http://127.0.0.1:8888/?token=126c79b021d40344592d
 ## For expert users
 If you are already familiar with Python, you can open notebooks (*.ipynb files) directly in your environment and run it.
 It requires following packages:
-- [GSAS](https://gsas-ii.readthedocs.io/en/latest/GSASIIscriptable.html) (build 3933)
-- [Optuna](https://optuna.readthedocs.io/en/stable/)(0.14.0)
+- [GSAS](https://gsas-ii.readthedocs.io/en/latest/GSASIIscriptable.html)
+- [Optuna](https://optuna.readthedocs.io/en/stable/)(newer than 3.5)
 - Jupyter Lab or Jupyter Notebook
 - Pandas
 - matplotlib
 
-You can install GSAS and Optuna as follows:
-```
-conda install -y gsas2pkg -c briantoby
-pip install git+https://github.com/optuna/optuna.git@v0.14.0
-```
 In the notebook, you should set `DATA_DIR` and `WORK_DIR` appropriately for your directory.
 
 
@@ -95,7 +95,7 @@ docker run --rm -v ${SCRIPT_DIR}/:/bbo_rietveld -p 18888:8888 -it bbo-rietveld
 ```sh
 resnant@cosmos:~$ docker image list
 REPOSITORY              TAG                             IMAGE ID            CREATED             SIZE
-resnant/bbo-rietveld    v1.0                            8f6833e9ff59        5 months ago        3.5GB
+resnant/bbo-rietveld    v1.1                            ab342a0ba172        1 months ago        5.24GB
 ```
 
 ## Licence
