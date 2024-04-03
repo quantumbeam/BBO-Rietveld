@@ -24,7 +24,7 @@ __Note: We suppose you are using macOS or Ubuntu and can run docker command with
 
 2. Pull bbo-rietveld docker image on terminal. 
 ```sh
-docker pull resnant/bbo-rietveld:v1.0
+docker pull resnant/bbo-rietveld:v1.1
 ```
 
 If needed, you can build bbo-rietveld docker image from `Dockerfile` on your computer.  
@@ -44,7 +44,7 @@ To use your own docker image, you need to specify your docker image in `run.sh`.
 ```
 or 
 ```bash
-docker run --rm -it -p 8888:8888 -v $PWD:/workspace bbo-rietveld:v2 bash
+docker run --rm -it -p 8888:8888 -v $PWD:/workspace bbo-rietveld:v1 bash
 jupyter lab --allow-root --ip 0.0.0.0
 ```
 
